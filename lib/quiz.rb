@@ -1,6 +1,5 @@
 # TODO: Below are five questions for you to answer. Read each of the questions
 # and make sure each of the methods return the correct answer.
-
 def launching_a_rails_server
   # TODO: Return a `string` with the command you would run in your terminal
   # to launch a rails server so that you could visit your your app in development
@@ -12,12 +11,10 @@ def rails_flow
   # TODO: Below there are three variables defined with the three different
   # steps required to add a new page to your rails app. Add these variables
   # to the Array returned so that these steps are in the correct order.
-
   a = 'generate controller and action'
   b = 'create view'
   c = 'add routes'
-
-  return [c,a,b]
+  return [c, a, b]
 end
 
 def route_to_about_page
@@ -27,7 +24,6 @@ def route_to_about_page
   # at `localhost:3000/about` (you will need to specify the controller and
   # action somehow....).
   "get 'about', to: 'pages#about'"
-
 end
 
 def generate_controller_command
@@ -40,5 +36,5 @@ def naming_conventions
   # TODO: Return a `string` with the file path (from the root of you rails
   # application) to the view corresponding to the controller action generated
   # in the question above (the `about` action, in the `pages` controller).
-   "app/views/pages/about.html.erb"
+  "app/views/pages/about.html.erb"
 end
